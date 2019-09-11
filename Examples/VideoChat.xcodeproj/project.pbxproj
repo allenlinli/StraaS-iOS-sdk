@@ -764,22 +764,14 @@
 				"${PODS_ROOT}/Target Support Files/Pods-VideoChat/Pods-VideoChat-frameworks.sh",
 				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework",
 				"${PODS_ROOT}/PodRTC/WebRTC.framework",
-				"${PODS_ROOT}/../../ios/StraaSCircallSDK.framework",
 				"${PODS_ROOT}/../../ios/StraaSCoreSDK.framework",
-				"${PODS_ROOT}/../../ios/StraaSMessagingSDK.framework",
-				"${PODS_ROOT}/../../ios/StraaSPlayerSDK.framework",
-				"${PODS_ROOT}/../../ios/StraaSPlayerLowLatencyExtensionSDK.framework",
 				"${PODS_ROOT}/../../ios/StraaSStreamingSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StraaSCircallSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StraaSCoreSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StraaSMessagingSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StraaSPlayerSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StraaSPlayerLowLatencyExtensionSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StraaSStreamingSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
