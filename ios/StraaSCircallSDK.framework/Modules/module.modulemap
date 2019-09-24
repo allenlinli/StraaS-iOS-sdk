@@ -1,6 +1,0 @@
-framework module StraaSCircallSDK {
-  umbrella header "StraaSCircallSDK.h"
-
-  export *
-  module * { export * }
-}
