@@ -34,11 +34,11 @@ NSString * const STSStreamingFiltersServiceKeyword = @"StraaS.io streaming filte
 }
 
 - (NSString *)JWT {
-    return <#PUT_YOUR_MEMEBER_JWT_HERE#>;
+    return kStraaSProdMemberJWT;
 }
 
 - (NSString *)chatroomName {
-    return <#PUT_YOUR_CHATROOMNAME_HERE#>;
+    return @"ios_sdk";
 }
 
 #pragma mark - Managing the detail item
