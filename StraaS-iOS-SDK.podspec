@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "StraaS-iOS-SDK"
-  s.version      = "0.57.0"
+  s.version      = "0.57.0-logging"
   s.summary      = "StraaS.io iOS SDK"
 
   s.description  = "StraaS.io - Streaming as a Service, Your Best OTT Solution."
@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
     streaming.vendored_frameworks = "ios/StraaSStreamingSDK.framework"
     streaming.dependency "StraaS-iOS-SDK/Core"
     streaming.dependency "GPUImage-StraaS", "~> 0.1.10"
+    streaming.dependency "CocoaLumberjack", "~> 3.6.2"
   end
   s.subspec 'Player' do |player|
     player.vendored_frameworks = "ios/StraaSPlayerSDK.framework"
@@ -43,6 +44,8 @@ Pod::Spec.new do |s|
     player.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.6.0"
     player.dependency "KVOController", "~> 1.2.0"
     player.dependency "AFNetworking", "~> 4.0.0"
+    player.dependency "CocoaLumberjack", "~> 3.6.2"
+    player.dependency "Connectivity" "~> 3.0"
   end
   s.subspec 'PlayerLowLatencyExtension' do |playerLowLatencyExtension|
     playerLowLatencyExtension.vendored_frameworks = "ios/StraaSPlayerLowLatencyExtensionSDK.framework"
