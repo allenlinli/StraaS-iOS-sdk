@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
     streaming.dependency "StraaS-iOS-SDK/Core"
     streaming.dependency "GPUImage-StraaS", "~> 0.1.10"
     streaming.dependency "CocoaLumberjack", "~> 3.6.2"
+    streaming.dependency "XCDLumberjackNSLogger", "~> 1.1"
   end
   s.subspec 'Player' do |player|
     player.vendored_frameworks = "ios/StraaSPlayerSDK.framework"
@@ -46,7 +47,7 @@ Pod::Spec.new do |s|
     player.dependency "AFNetworking", "~> 4.0.0"
     player.dependency "CocoaLumberjack", "~> 3.6.2"
     player.dependency "Connectivity", "~> 3.0"
-    
+    player.dependency "XCDLumberjackNSLogger", "~> 1.1"
   end
   s.subspec 'PlayerLowLatencyExtension' do |playerLowLatencyExtension|
     playerLowLatencyExtension.vendored_frameworks = "ios/StraaSPlayerLowLatencyExtensionSDK.framework"
