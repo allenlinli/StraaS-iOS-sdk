@@ -45,7 +45,8 @@ Pod::Spec.new do |s|
     player.dependency "KVOController", "~> 1.2.0"
     player.dependency "AFNetworking", "~> 4.0.0"
     player.dependency "CocoaLumberjack", "~> 3.6.2"
-    player.dependency "Connectivity" "~> 3.0"
+    player.dependency "Connectivity", "~> 3.0"
+    
   end
   s.subspec 'PlayerLowLatencyExtension' do |playerLowLatencyExtension|
     playerLowLatencyExtension.vendored_frameworks = "ios/StraaSPlayerLowLatencyExtensionSDK.framework"
