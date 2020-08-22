@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/StraaSPlayerSDK-Swift.h</key>
 		<data>
-		q02ZSVot6vncgEdkiclU/1enC7s=
+		qjxw2ZeSbBz3FkLK6+sewysQhN8=
 		</data>
 		<key>Headers/StraaSPlayerSDK.h</key>
 		<data>
@@ -118,71 +118,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LHwaeL614nL/OnDIuTA6WvghXvU=
+		4nZiyg/zJQwnI0ZORMnWlTbsuRY=
 		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CS2RmbcJ6vwUjRaQJAUMC8eeUdA=
+		UzPoyZ5mdhxqQAa1r8jeLs1WVok=
 		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CS2RmbcJ6vwUjRaQJAUMC8eeUdA=
+		KWgnv4yr+WexXK+cfJg9dTYGi5w=
 		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cLsDzvPT19WVKow8Hfy+hV11xTk=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		cLsDzvPT19WVKow8Hfy+hV11xTk=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		5ERLgAaRUyzWTAt6LGb5Gv9XO3U=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		fQO/EWv+UD9Sw+2PrUVr7dnqCD4=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		sTjnlujFDZdEURh5xaS0rdvy4OY=
+		Iv0XDtD22Khy0PRPxvygAUVcClc=
 		</data>
 		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		5ERLgAaRUyzWTAt6LGb5Gv9XO3U=
+		UzPoyZ5mdhxqQAa1r8jeLs1WVok=
 		</data>
 		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		fQO/EWv+UD9Sw+2PrUVr7dnqCD4=
+		KWgnv4yr+WexXK+cfJg9dTYGi5w=
 		</data>
 		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		sTjnlujFDZdEURh5xaS0rdvy4OY=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		1qDrnDWReRcGOzjtRIK8J73dRbQ=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		BCcUOQcIPhh1OuNyNb8GLJVCOBE=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		sFC0RrdeE2tQqlDsG78ryUtVHDk=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		1qDrnDWReRcGOzjtRIK8J73dRbQ=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		BCcUOQcIPhh1OuNyNb8GLJVCOBE=
-		</data>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		sFC0RrdeE2tQqlDsG78ryUtVHDk=
+		Iv0XDtD22Khy0PRPxvygAUVcClc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -503,11 +463,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q02ZSVot6vncgEdkiclU/1enC7s=
+			qjxw2ZeSbBz3FkLK6+sewysQhN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			3GGirx2R22WS5TohSyrElaWPSTkUCt9Mx7TlNbmrgC0=
+			Fx2JBv+DvuJW/nDZPL0aWOcczJBmQHVpFGsf3BQ8oXo=
 			</data>
 		</dict>
 		<key>Headers/StraaSPlayerSDK.h</key>
@@ -521,180 +481,70 @@
 			HSgpRJ9UqmxocU6j88N4mIn6X3IbZA4YvVwJjiEyCgw=
 			</data>
 		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CS2RmbcJ6vwUjRaQJAUMC8eeUdA=
+			UzPoyZ5mdhxqQAa1r8jeLs1WVok=
 			</data>
 			<key>hash2</key>
 			<data>
-			YIzXqwO8turSylRQAJ/2t7vKJGTVh85IMEZpneLPymM=
+			cfvWoBbsQYNOb1hY8n71aiipbcExwPgrX67FcdY+Y4I=
 			</data>
 		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CS2RmbcJ6vwUjRaQJAUMC8eeUdA=
+			KWgnv4yr+WexXK+cfJg9dTYGi5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			YIzXqwO8turSylRQAJ/2t7vKJGTVh85IMEZpneLPymM=
+			OmGVd+zTLpRG74behjuSsFa8fDZEo3+ydLdAyGuwDng=
 			</data>
 		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cLsDzvPT19WVKow8Hfy+hV11xTk=
+			Iv0XDtD22Khy0PRPxvygAUVcClc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ELtGo12T/sPGQtv8eYF+r8XxeOn55hJPvblxqifKdoI=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cLsDzvPT19WVKow8Hfy+hV11xTk=
-			</data>
-			<key>hash2</key>
-			<data>
-			ELtGo12T/sPGQtv8eYF+r8XxeOn55hJPvblxqifKdoI=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5ERLgAaRUyzWTAt6LGb5Gv9XO3U=
-			</data>
-			<key>hash2</key>
-			<data>
-			FqpViPRMDxbQJI1wfDJuqFbWYPEUh+ebY/U7+/0AGPc=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fQO/EWv+UD9Sw+2PrUVr7dnqCD4=
-			</data>
-			<key>hash2</key>
-			<data>
-			zeFjf4y/X7HoZ+5HvyI9G9CzbY8o+IJ2HcGIPax3dEs=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sTjnlujFDZdEURh5xaS0rdvy4OY=
-			</data>
-			<key>hash2</key>
-			<data>
-			9YeKvpGWNPqVrGZ+357Fw6iQc6iTU1fGypwD+LXdRgM=
+			CB8SKB9qGyUSlqSEtAdd6hpn/uXZDwmEj5c5rHCcAgE=
 			</data>
 		</dict>
 		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5ERLgAaRUyzWTAt6LGb5Gv9XO3U=
+			UzPoyZ5mdhxqQAa1r8jeLs1WVok=
 			</data>
 			<key>hash2</key>
 			<data>
-			FqpViPRMDxbQJI1wfDJuqFbWYPEUh+ebY/U7+/0AGPc=
+			cfvWoBbsQYNOb1hY8n71aiipbcExwPgrX67FcdY+Y4I=
 			</data>
 		</dict>
 		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fQO/EWv+UD9Sw+2PrUVr7dnqCD4=
+			KWgnv4yr+WexXK+cfJg9dTYGi5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			zeFjf4y/X7HoZ+5HvyI9G9CzbY8o+IJ2HcGIPax3dEs=
+			OmGVd+zTLpRG74behjuSsFa8fDZEo3+ydLdAyGuwDng=
 			</data>
 		</dict>
 		<key>Modules/StraaSPlayerSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sTjnlujFDZdEURh5xaS0rdvy4OY=
+			Iv0XDtD22Khy0PRPxvygAUVcClc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9YeKvpGWNPqVrGZ+357Fw6iQc6iTU1fGypwD+LXdRgM=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1qDrnDWReRcGOzjtRIK8J73dRbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			g8j3C6QNMX3N8Vf2cPmlJe8bC4nDtnobHevEDd4NASw=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BCcUOQcIPhh1OuNyNb8GLJVCOBE=
-			</data>
-			<key>hash2</key>
-			<data>
-			EdHs+xA2Espy9nG3eT4VRmf4LpjsbfxEUmfGMKVyM+4=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sFC0RrdeE2tQqlDsG78ryUtVHDk=
-			</data>
-			<key>hash2</key>
-			<data>
-			GuGUfoPqaP3v69Mn+Ghu3u4LSPUBkGdo9pPi+P4iuHI=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1qDrnDWReRcGOzjtRIK8J73dRbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			g8j3C6QNMX3N8Vf2cPmlJe8bC4nDtnobHevEDd4NASw=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BCcUOQcIPhh1OuNyNb8GLJVCOBE=
-			</data>
-			<key>hash2</key>
-			<data>
-			EdHs+xA2Espy9nG3eT4VRmf4LpjsbfxEUmfGMKVyM+4=
-			</data>
-		</dict>
-		<key>Modules/StraaSPlayerSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sFC0RrdeE2tQqlDsG78ryUtVHDk=
-			</data>
-			<key>hash2</key>
-			<data>
-			GuGUfoPqaP3v69Mn+Ghu3u4LSPUBkGdo9pPi+P4iuHI=
+			CB8SKB9qGyUSlqSEtAdd6hpn/uXZDwmEj5c5rHCcAgE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
