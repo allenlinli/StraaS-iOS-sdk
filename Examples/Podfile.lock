@@ -24,6 +24,9 @@ PODS:
   - IQKeyboardManager (6.5.6)
   - KVOController (1.2.0)
   - MBProgressHUD (1.2.0)
+  - NSLogger (1.9.7):
+    - NSLogger/ObjC (= 1.9.7)
+  - NSLogger/ObjC (1.9.7)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
@@ -51,13 +54,18 @@ PODS:
     - KVOController (~> 1.2.0)
     - Socket.IO-Client-Swift (~> 15.1.0)
     - StraaS-iOS-SDK/Core
+    - XCDLumberjackNSLogger (~> 1.1)
   - StraaS-iOS-SDK/PlayerLowLatencyExtension (0.57.0-logging):
     - StraaS-iOS-SDK/Player
   - StraaS-iOS-SDK/Streaming (0.57.0-logging):
     - CocoaLumberjack (~> 3.6.2)
     - GPUImage-StraaS (~> 0.1.10)
     - StraaS-iOS-SDK/Core
+    - XCDLumberjackNSLogger (~> 1.1)
   - TTTAttributedLabel (2.0.0)
+  - XCDLumberjackNSLogger (1.1.1):
+    - CocoaLumberjack (>= 2.0)
+    - NSLogger (>= 1.7)
   - YUGPUImageHighPassSkinSmoothing-Straas (1.6):
     - GPUImage-StraaS (~> 0.1.10)
 
@@ -85,11 +93,13 @@ SPEC REPOS:
     - IQKeyboardManager
     - KVOController
     - MBProgressHUD
+    - NSLogger
     - SDWebImage
     - SlackTextViewController
     - Socket.IO-Client-Swift
     - Starscream
     - TTTAttributedLabel
+    - XCDLumberjackNSLogger
     - YUGPUImageHighPassSkinSmoothing-Straas
 
 EXTERNAL SOURCES:
@@ -106,12 +116,14 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SlackTextViewController: b854e62c1c156336bc4fd409c6ca79b5773e8f9d
   Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
-  StraaS-iOS-SDK: 1fef18d9db4bfc07d437c92ad04b33dbccce59e9
+  StraaS-iOS-SDK: 696a95c2299815bb26ab48da4ee1889004398967
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  XCDLumberjackNSLogger: 5929772477ead3b856c34825698bd69ab1a15bfc
   YUGPUImageHighPassSkinSmoothing-Straas: 4f48e63b66f0cc920d1c9027549075444f62a8f4
 
 PODFILE CHECKSUM: 2800bc0d1bc194b497501bd250ff84ee3ad4bb1e
