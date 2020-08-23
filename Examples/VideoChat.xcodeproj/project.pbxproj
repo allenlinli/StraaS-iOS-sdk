@@ -51,6 +51,7 @@
 		FFB6689520E3961F004CE075 /* STSQRCodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB6689420E3961F004CE075 /* STSQRCodeScannerViewController.m */; };
 		FFC4073F21FE8ADE001DB97C /* StreamingFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4073E21FE8ADE001DB97C /* StreamingFiltersViewController.m */; };
 		FFFB0B6324F206EB0055CEFD /* StraaS-iOS-SDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FFFB0B6224F206EB0055CEFD /* StraaS-iOS-SDK.podspec */; };
+		FFFB0B6524F2072A0055CEFD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFFB0B6424F2072A0055CEFD /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -162,6 +163,7 @@
 		FFC4073D21FE8ADE001DB97C /* StreamingFiltersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreamingFiltersViewController.h; sourceTree = "<group>"; };
 		FFC4073E21FE8ADE001DB97C /* StreamingFiltersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingFiltersViewController.m; sourceTree = "<group>"; };
 		FFFB0B6224F206EB0055CEFD /* StraaS-iOS-SDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "StraaS-iOS-SDK.podspec"; path = "../StraaS-iOS-SDK.podspec"; sourceTree = "<group>"; };
+		FFFB0B6424F2072A0055CEFD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		40C779CE1D7091D0004F61CA = {
 			isa = PBXGroup;
 			children = (
+				FFFB0B6424F2072A0055CEFD /* Podfile */,
 				FFFB0B6224F206EB0055CEFD /* StraaS-iOS-SDK.podspec */,
 				40C779D91D7091D0004F61CA /* Examples */,
 				40C779D81D7091D0004F61CA /* Products */,
@@ -437,6 +440,7 @@
 			files = (
 				40C779ED1D7091D0004F61CA /* LaunchScreen.storyboard in Resources */,
 				9BBCBDEA1E88B7D9006D3500 /* Localizable.strings in Resources */,
+				FFFB0B6524F2072A0055CEFD /* Podfile in Resources */,
 				9B9A9BB31DC986670017F8C1 /* StickersInputView.xib in Resources */,
 				40C779EA1D7091D0004F61CA /* Assets.xcassets in Resources */,
 				FFFB0B6324F206EB0055CEFD /* StraaS-iOS-SDK.podspec in Resources */,
@@ -474,39 +478,35 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-VideoChat/Pods-VideoChat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/Connectivity/Connectivity.framework",
 				"${BUILT_PRODUCTS_DIR}/GPUImage-StraaS/GPUImage.framework",
 				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/NSLogger/NSLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/Rollbar/Rollbar.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SlackTextViewController/SlackTextViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/XCDLumberjackNSLogger/XCDLumberjackNSLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/YUGPUImageHighPassSkinSmoothing-Straas/YUGPUImageHighPassSkinSmoothing_Straas.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Connectivity.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rollbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlackTextViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDLumberjackNSLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YUGPUImageHighPassSkinSmoothing_Straas.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

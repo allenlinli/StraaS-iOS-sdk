@@ -15,5 +15,5 @@ target 'VideoChat' do
   pod 'Socket.IO-Client-Swift', '~> 15.1.0'
   pod 'IJKMediaFramework', '~> 0.1.2'
   pod 'YUGPUImageHighPassSkinSmoothing-Straas', '~> 1.6.0'
-  pod 'CocoaLumberjack', '~> 3.6.2'
+  pod 'Rollbar', '~> 1.12.9'
 end

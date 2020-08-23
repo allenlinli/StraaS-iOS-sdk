@@ -6,8 +6,6 @@
 //
 //
 
-@import CocoaLumberjack;
-
 #import "STSPlayerViewController.h"
 #import <StraaSPlayerSDK/StraaSPlayerSDK.h>
 #import <StraaSPlayerLowLatencyExtensionSDK/STSLowLatencyPlayer.h>

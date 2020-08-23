@@ -6,6 +6,7 @@
 //  Copyright © 2020 StraaS.io. All rights reserved.
 //
 
+@import Rollbar;
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 #import "StreamingFiltersViewController.h"
@@ -24,6 +25,22 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+    selector: @selector(thermalStateChanged:)
+    name: NSProcessInfoThermalStateDidChangeNotification
+    object: nil];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+    selector: @selector(powerStateChanged:)
+    name: NSProcessInfoPowerStateDidChangeNotification
+    object: nil];
+
+    RollbarConfiguration *config = [[RollbarConfiguration alloc] init];
+    config.environment = @"development";
+
+    [Rollbar initWithAccessToken:@"b8b7f5e6bd25482ba4db8e8700b33a33" configuration:config];
+    [Rollbar critical:@"Rollbar started"];
     return YES;
 }
 
@@ -89,6 +106,39 @@
     } else {
         return NO;
     }
+}
+
+- (void)thermalStateChanged:(NSNotification *) notification {
+    if (@available(iOS 11.0, *)) {
+        NSProcessInfoThermalState state = [[NSProcessInfo processInfo] thermalState];
+        if (state == NSProcessInfoThermalStateFair) {
+            // Thermals are fair. Consider taking proactive measures to prevent higher thermals.
+            [Rollbar debug:@"Key!!!!! thermalStateChanged state == NSProcessInfoThermalStateFair"];
+        } else if (state == NSProcessInfoThermalStateSerious) {
+            // Thermals are highly elevated. Help the system by taking corrective action.
+            [Rollbar debug:@"Key!!!!! thermalStateChanged state == NSProcessInfoThermalStateSerious"];
+        } else if (state == NSProcessInfoThermalStateCritical) {
+            // Thermals are seriously elevated. Help the system by taking immediate corrective action.
+            [Rollbar debug:@"Key!!!!! thermalStateChanged state == NSProcessInfoThermalStateCritical"];
+        } else {
+            // Thermals are okay. Go about your business.
+        };
+    } else {
+        // Fallback on earlier versions
+    }
+}
+
+- (void)powerStateChanged:(NSNotification *) notification {
+    BOOL lowPowerModeEnabled = [[NSProcessInfo processInfo] isLowPowerModeEnabled];
+    if (lowPowerModeEnabled) {
+        [Rollbar debug:@"Key!!!!! powerStateChanged lowPowerModeEnabled == YES"];
+    } else {
+        [Rollbar debug:@"Key!!!!! powerStateChanged lowPowerModeEnabled == NO"];
+    }
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
+    [Rollbar debug:@"Key!!!!! - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application"];
 }
 
 @end
