@@ -30,13 +30,12 @@ Pod::Spec.new do |s|
     co.vendored_frameworks = "ios/StraaSCoreSDK.framework"
     co.dependency "AFNetworking", "~> 4.0.0"
     co.dependency "Socket.IO-Client-Swift", "~> 15.1.0"
+    co.dependency "Rollbar", "~> 1.12.9"
   end
   s.subspec 'Streaming' do |streaming|
     streaming.vendored_frameworks = "ios/StraaSStreamingSDK.framework"
     streaming.dependency "StraaS-iOS-SDK/Core"
     streaming.dependency "GPUImage-StraaS", "~> 0.1.10"
-    streaming.dependency "CocoaLumberjack", "~> 3.6.2"
-    streaming.dependency "XCDLumberjackNSLogger", "~> 1.1"
   end
   s.subspec 'Player' do |player|
     player.vendored_frameworks = "ios/StraaSPlayerSDK.framework"
@@ -45,9 +44,7 @@ Pod::Spec.new do |s|
     player.dependency "GoogleAds-IMA-iOS-SDK", "~> 3.6.0"
     player.dependency "KVOController", "~> 1.2.0"
     player.dependency "AFNetworking", "~> 4.0.0"
-    player.dependency "CocoaLumberjack", "~> 3.6.2"
     player.dependency "Connectivity", "~> 3.0"
-    player.dependency "XCDLumberjackNSLogger", "~> 1.1"
   end
   s.subspec 'PlayerLowLatencyExtension' do |playerLowLatencyExtension|
     playerLowLatencyExtension.vendored_frameworks = "ios/StraaSPlayerLowLatencyExtensionSDK.framework"

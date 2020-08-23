@@ -50,6 +50,7 @@
 		FFB667F72328E2BF00480E1E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB667F62328E2BF00480E1E /* File.swift */; };
 		FFB6689520E3961F004CE075 /* STSQRCodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB6689420E3961F004CE075 /* STSQRCodeScannerViewController.m */; };
 		FFC4073F21FE8ADE001DB97C /* StreamingFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC4073E21FE8ADE001DB97C /* StreamingFiltersViewController.m */; };
+		FFFB0B6324F206EB0055CEFD /* StraaS-iOS-SDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FFFB0B6224F206EB0055CEFD /* StraaS-iOS-SDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,6 +161,7 @@
 		FFB6689420E3961F004CE075 /* STSQRCodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSQRCodeScannerViewController.m; sourceTree = "<group>"; };
 		FFC4073D21FE8ADE001DB97C /* StreamingFiltersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreamingFiltersViewController.h; sourceTree = "<group>"; };
 		FFC4073E21FE8ADE001DB97C /* StreamingFiltersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingFiltersViewController.m; sourceTree = "<group>"; };
+		FFFB0B6224F206EB0055CEFD /* StraaS-iOS-SDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "StraaS-iOS-SDK.podspec"; path = "../StraaS-iOS-SDK.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 		40C779CE1D7091D0004F61CA = {
 			isa = PBXGroup;
 			children = (
+				FFFB0B6224F206EB0055CEFD /* StraaS-iOS-SDK.podspec */,
 				40C779D91D7091D0004F61CA /* Examples */,
 				40C779D81D7091D0004F61CA /* Products */,
 				A97E121124F4149BF9610B16 /* Pods */,
@@ -436,6 +439,7 @@
 				9BBCBDEA1E88B7D9006D3500 /* Localizable.strings in Resources */,
 				9B9A9BB31DC986670017F8C1 /* StickersInputView.xib in Resources */,
 				40C779EA1D7091D0004F61CA /* Assets.xcassets in Resources */,
+				FFFB0B6324F206EB0055CEFD /* StraaS-iOS-SDK.podspec in Resources */,
 				9B4E12FC1DE8027B00380A92 /* Assets.xcassets in Resources */,
 				40C779E81D7091D0004F61CA /* Main.storyboard in Resources */,
 			);
