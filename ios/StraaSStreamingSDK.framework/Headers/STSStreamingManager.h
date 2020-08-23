@@ -6,7 +6,7 @@
 //  Copyright © 2016年 StraaS.io. All rights reserved.
 //
 
-@import CocoaLumberjack;
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
